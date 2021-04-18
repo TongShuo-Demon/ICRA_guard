@@ -1,0 +1,43 @@
+%YAML:1.0
+---
+
+#连续抓拍模式`
+IsGrabModeContinuesMy: 1
+#自动曝光
+IsAutoExposureMy: 0
+TimeExposMin: 16
+TimeExposMax: 1000000.
+TimeExposDefaults: 7000
+
+#增益值
+gainRawMin: 1
+gainRawMax: 6
+gainRawDefaults: 6
+#Armor Para
+GammaMy_Armor: 0.8
+gainRawMy_Armor: 6
+exposeTimeMy_Armor: 1000
+
+
+#咖玛值
+GammaMy: 0.7
+GammaMin: 0
+GammaMax: 4
+GammaDefaults: 6.5000000000000002e-01
+
+#帧率设定值
+frameRateMy: 150
+frameRateMax: 210
+
+#白平衡
+BalanceRationMin: 1
+BalanceRationMax: 255
+redBalanceRatioMy: 1.64
+greenBalanceRatioMy: 1
+blueBalanceRatioMy: 1.61
+
+#分辨率
+imgWidth: 1280
+imgHeight: 1024
+x_offset: 0
+y_offset: 0

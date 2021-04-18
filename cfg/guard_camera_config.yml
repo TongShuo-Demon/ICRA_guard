@@ -1,0 +1,33 @@
+%YAML:1.0
+---
+#该文档主要包括相机内参和畸变系数
+#
+cameraMatrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [1286.6,0,578.6,
+         0, 1286.1,507.1,
+         0,0,1  ]
+
+distCoeffs: !!opencv-matrix
+  rows: 5
+  cols: 1
+  dt: d
+  data: [-0.1042, 0.2512, 0, 0.0, 0.0]
+
+
+Rtag2world: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [-1,0,0,
+         0,0,1,
+         0,-1,0]
+
+Ttag2world: !!opencv-matrix
+  rows: 3
+  cols: 1
+  dt: d
+  data: [1111,  3540,  200]
+

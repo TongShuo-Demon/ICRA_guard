@@ -1,0 +1,35 @@
+%YAML:1.0
+---
+
+
+#yolov5 路径
+yolov5_model_path: ../exp53/weights/best.torchscript.pt
+
+#yolov5 name
+yolov5_name_path: ../yolov5/weights/my.names
+
+# position 路径
+position_mlp_path: ../python脚本/坐标/position_mlp.torchscript.pt
+
+#yolov5的阈值设定
+yolov5_conf_thres: 0.4
+yolov5_iou_thres: 0.5
+
+# 演示背景图
+backgroud_path: ../images/ros.png
+
+# capture video  路径
+video_source_path_right: ../video/20210330T145839/realtime.avi
+
+# 标签的坐标系
+tag_image_x1: 980
+tag_image_y1: 387
+tag_image_x2: 1030
+tag_image_y2: 397
+tag_image_x3: 1022
+tag_image_y3: 442
+tag_image_x4: 975
+tag_image_y4: 432
+
+# 目标坐标融合的阈值
+limit_fuse: 10
